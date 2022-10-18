@@ -1,0 +1,456 @@
+header{
+  display: inline-flex;
+  padding: 0;
+  margin: 15px;
+  box-sizing: border-box;
+  align-items: center;
+}
+.logo{
+  width: 600px
+
+}
+.logo-img{
+  width: 200px;
+  padding:0px 0px 0px 110px
+  
+
+}
+.buscador{
+  width: 700px;
+  padding:0px 0px 0px 110px
+
+
+}
+
+.buscador input{
+  width: 340px;
+  height: 40px;
+
+
+}
+.nav{
+  padding: auto;
+  margin: auto;
+
+}
+a{
+  font-size: 30px;
+  text-decoration: none;
+  font-family: Verdana;
+  padding: 10px;
+  color: black;
+
+}
+
+.texto-header{
+  height: 770px;
+  width: 100%;
+
+
+  background: #12c2e9;  
+  background: -webkit linear-gradient(to right, #fffeff52, #ffffff3a, #12c2e900), url(/imagenes/seocabanernav.jpg); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff52, #ffffff3a, #12c2e900), url(/imagenes/seocabanernav.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ;
+  background-size: cover;/*tamaño de la imagen*/
+  background-attachment:scroll;/* posición de la imagen de fondo será fija dentro de la pantalla o se desplazará con su bloque contenedor*/
+  /*position:absolute;*/
+  position:sticky;
+
+}
+
+h1{
+  font-size: 44px;
+  font-weight:bold;
+  font-family: 'calibri';
+  margin: 0em 1em;/*2para arriba y 1 de costado*/
+  padding: 330px 0px 10px 0px;
+  color:#000;
+ 
+}
+
+
+div h2 {
+  font-weight: bold;
+   font-size: 32px;
+   margin: 0em 2em;
+   padding: 10px;
+   font-family: 'calibri';
+}
+
+div h3 {
+  font-size: 20px;
+  margin:1em 4em ;
+  font-family: 'calibri';
+}                     
+
+.box{
+  color: rgb(4, 4, 4);
+  margin: 2px ;
+  padding: 2px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 6em; 
+
+  
+} 
+
+  
+.certificado{
+  height: 160px;
+  width: 160px;
+
+  
+}
+
+.card{
+  display: inline-block;
+}
+
+.cursos{
+  width:372px;
+  height: 300px;
+  box-sizing: border-box;
+  border-color: #000;
+  border-radius: 10px;
+  border-style: double;
+
+}
+
+hr{
+  border-style:solid;/*hace un borde*/
+  border-radius: 100px;/*grosor del cuadro*/
+}
+
+h2{
+  font-size: 46px;
+  font-family: 'calibri';
+}
+
+/*footer*/
+.footer{
+  margin: 120px;
+  font-family: 'calibri';
+  font-weight: bold;
+  text-align: center;
+  font-size: 29px;
+  background-color:#161e2c;
+  color: aliceblue;
+  height: 399px;
+  width: 100%;
+  margin: 0;
+  padding: 1px;
+  background-size: cover;
+   }
+.logo-facebook{
+  margin: 120px;
+  
+}
+
+footer img{
+      width: 50px;
+      height: 50px;
+}
+
+footer h3{
+  font-family: 'calibri';
+  font-size: 38px;
+}
+
+/*
+nav{
+  height: 880px;
+  width: 100%;
+
+  background: #12c2e9;  
+  background: -webkit linear-gradient(to right, #fffeff52, #ffffff3a, #12c2e900), url(seocabanernav.jpg); /* Chrome 10-25, Safari 5.1-6 */
+ /* background: linear-gradient(to right, #ffffff52, #ffffff3a, #12c2e900), url(seocabanernav.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /*;
+  background-size: cover;/*tamaño de la imagen*/
+ /* background-attachment:scroll;/* posición de la imagen de fondo será fija dentro de la pantalla o se desplazará con su bloque contenedor*/
+ /* position:absolute;
+}*/
+
+
+/*body*/
+
+/*contacto*/
+
+fieldset{
+  text-align: center;
+  margin: 90px 0px 90px 790px;
+  width: 450px;
+  height: 90px;
+  border-style: solid;
+  border-radius: 0px; 
+  border-width: 7px;
+  border-color: #000;
+}
+
+label{
+  font-family: 'calibri';
+  font-size: 10px; 
+  font-weight: bold;
+}
+legend{
+  font-size: 10px;
+  
+}
+
+.texto-header3{
+  height: 42px;
+  width: 25px;
+
+  background:  url(/imagenes/abstraction-background-colorful-geometry-abstract-hd-wallpaper-preview.jpg); /* Chrome 10-25, Safari 5.1-6 */
+  
+  background-position:center ;
+  background-size:cover;/*tamaño de la imagen*/
+
+}
+input{
+  height: 29px;
+}
+
+.fondobaner{
+  
+  background: url(/imagenes/fondocolor.jpg);
+  height: 199px;
+  width: 10px;
+  margin: 0;
+  padding: 1px;
+ /* background-size: cover;*/
+}
+
+/*fieldset{
+  text-align: center;
+  margin: 90px 0px 90px 790px;
+  width: 350px;
+  height: 490px;
+  border-style: solid;
+  border-radius: 0px; 
+  border-width: 7px;
+  border-color: #000;
+}
+
+
+label{
+  font-family: 'calibri';
+  font-size: 20px; 
+  font-weight: bold;
+}
+legend{
+  font-size: 30px;
+}
+*/
+/*.texto-header3{
+  height:684px;
+  width: 100%;
+
+  background:  url(abstraction-background-colorful-geometry-abstract-hd-wallpaper-preview.jpg); /* Chrome 10-25, Safari 5.1-6 */
+
+  /*  
+  background-position:center ;
+  background-size:cover;/*tamaño de la imagen*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*cursos index*/
+
+
+
+
+
+
+
+
+
+.cursoonline{
+border-style:solid;
+ text-align: center;
+padding: 5px; 
+}
+
+.cursoonline, img{
+  width: 1000px;
+  text-align: center;
+}
+
+img{
+  height: 100%;;
+  width: 900px;
+  box-sizing: border-box;
+}
+*{
+  
+  padding: 0;
+  margin: 0; 
+  box-sizing: border-box;
+}*/
+/*siempre se arranca asi*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  box-sizing: border-box;
+  margin: auto;
+  padding: auto;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card{
+  border-color: #000;
+  display:inline-block;/*PARA CAMBIAR DE HORIZONTAL A VERTICAL*/
+}
+
+h2{
+  padding: 10px;
+}
+h2{
+  font-family: 'calibri';
+  font-size: 50px;
+  font-weight: bold;
+   }
+
+hr{
+  border-style:solid;/*hace un borde*/
+  border-radius: 100px;/*grosor del cuadro*/
+}
+
+/*footer*/
+.footer{
+  margin: 120px;
+  font-family: 'calibri';
+  font-weight: bold;
+  text-align: center;
+  font-size: 29px;
+  background-color:#161e2c;
+  color: aliceblue;
+  height: 338px;
+  width: 100%;
+  margin: 0;
+  padding: 1px;
+  background-size: cover;
+   }
+.logo-facebook{
+  margin: 120px;
+  
+}
+
+footer img{
+      width: 50px;
+      height: 50px;
+}
+
+footer h3{
+  font-family: 'calibri';
+  font-size: 38px;
+}
+
+
+
+/*body*/
+
+/*contacto*/
+fieldset{
+  text-align: center;
+ /* margin: 90px 0px 90px 790px;*/
+  width: 279px;
+  height: 890px;
+  border-style: solid;
+  border-radius: 0px; 
+  border-width: 7px;
+  border-color: #000;
+}
+
+label{
+  font-family: 'calibri';
+  font-size: 20px; 
+  font-weight: bold;
+}
+legend{
+  font-size: 30px;
+}
+
+.texto-header3{
+  height: 14px;
+  width: 15px;
+
+  background:  url(/imagenes/abstraction-background-colorful-geometry-abstract-hd-wallpaper-preview.jpg); /* Chrome 10-25, Safari 5.1-6 */
+  
+  background-position:center ;
+  background-size:cover;/*tamaño de la imagen*/
+
+}
+
+
+.fondobaner{
+  
+  background: url(/imagenes/fondocolor.jpg);
+  height: 999px;
+  width: 100%;
+  margin: 0;
+  padding: 1px;
+  background-size: cover;
+}
+
+.texto-header3{
+  height:184px;
+  width: 100%;
+
+  background:  url(/imagenes/abstraction-background-colorful-geometry-abstract-hd-wallpaper-preview.jpg); /* Chrome 10-25, Safari 5.1-6 */
+  
+  background-position:center ;
+  background-size:cover;/*tamaño de la imagen*/
+
+}
+
+
+
+
+/*cursos index*/
+
+
+.bannerheader{
+background: url(dos.png);
+
+}
+
+.cursoonline{
+border-style:solid;
+ text-align: center;
+padding: 5px; 
+}
+
+.cursoonline, img{
+  width: 1000px;
+  text-align: center;
+}
+
+img{
+  height: 100%;;
+  width: 900px;
+  box-sizing: border-box;
+}
